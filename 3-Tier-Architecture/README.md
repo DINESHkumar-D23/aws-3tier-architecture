@@ -1,36 +1,27 @@
-# AWS 3-Tier Architecture with Disaster Recovery
-
-
-
-
-
-\# AWS 3-Tier Architecture with Disaster Recovery
-
+AWS 3-Tier Architecture with Disaster Recovery
 
 
 This project demonstrates a production-grade 3-tier architecture in AWS, with a Disaster Recovery (DR) setup across regions.
 
 
-
-\## 🏗️ Architecture Overview
-
+🏗️ Architecture Overview
 
 
-\- \*\*Web Layer\*\*: Deployed in a public subnet behind a load balancer.
+\- Web Layer: Deployed in a public subnet behind a load balancer.
 
-\- \*\*App Layer\*\*: Private subnet with NAT Gateway access.
+\- App Layer: Private subnet with NAT Gateway access.
 
-\- \*\*Database Layer\*\*: RDS hosted in a private subnet with cross-region replication.
+\- Database Layer: RDS hosted in a private subnet with cross-region replication.
 
-\- \*\*NAT Gateway\*\*: Enables outbound traffic for private subnets.
+\- NAT Gateway: Enables outbound traffic for private subnets.
 
-\- \*\*Internet Gateway\*\*: Handles public traffic for web tier.
+\- Internet Gateway: Handles public traffic for web tier.
 
-\- \*\*Security Groups\*\*: Isolated rules between layers.
+\- Security Groups: Isolated rules between layers.
 
 
 
-\## 📁 Files Included
+📁 Files Included
 
 
 
@@ -50,11 +41,11 @@ This project demonstrates a production-grade 3-tier architecture in AWS, with a 
 
 
 
-\## ✍️ Author
+✍️ Author
 
 
 
-\*\*Dinesh Kumar D\*\*  
+Dinesh Kumar D
 
 📧 dineshkumar.d232005@gmail.com  
 
